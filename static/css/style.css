@@ -1,0 +1,41 @@
+.{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    height: 100vh; /* Full height of the screen */
+    width: 100%;  /* Full width */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+}
+.bg-dark{
+background-color:#75767B;
+ height: 100vh;
+
+}
+/*.card {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+}
+*/
+.card {
+    width: 80%;  /* Shrink the width of the card */
+    max-width: 800px;  /* Max width is now 800px */
+    height: auto;  /* Height adjusts based on content */
+    padding: 20px; /* Add some padding */
+    margin-top: 20px; /* Add some space at the top */
+}
+.card-header, .card-body {
+    padding: 20px;  /* Add padding inside card */
+}
+.mt-50{
+margin-top:20px;
+}
